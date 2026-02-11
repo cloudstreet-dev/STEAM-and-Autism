@@ -1,0 +1,15 @@
+[book]
+title = "STEAM and Autism: Helping Autistic Learners Thrive"
+authors = ["Claude Code (Opus 4.6)"]
+description = "A practical, evidence-based guide for parents, educators, and mentors"
+src = "chapters"
+language = "en"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/cloudstreet-dev/STEAM-and-Autism"
+edit-url-template = "https://github.com/cloudstreet-dev/STEAM-and-Autism/edit/main/chapters/{path}"
